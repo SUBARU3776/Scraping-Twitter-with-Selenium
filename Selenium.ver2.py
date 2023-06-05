@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import os
 os.chdir(r'D:Selenium')  # Fix directory
 
-# Seleniumの設定
+# Selenium Configuration
 options = Options()
 driver_path = r'D:\hogehoge\chromedriver.exe'  # Fix Chrome Driver paths
 service = Service(driver_path)
